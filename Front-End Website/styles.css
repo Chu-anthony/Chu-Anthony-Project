@@ -1,0 +1,107 @@
+/*
+  Name: Anthony Chu
+  Date: 10/06/2022
+  Section: CSE 154 AF Max T Bi, Tara Elizabeth Wueger
+
+  This file is used to decorate the html page for about.html.
+  It gives the page a consistent feel of white and space theme.
+  It is also designed in the way that the style of the html page
+  will correspond to the context of this file after we press the
+  hack button.
+*/
+body {
+  background-image: url("img/space-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15pt;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.hacked {
+  background-image: url("https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif");
+}
+
+.display {
+  display: none;
+}
+
+h3, .source, #intro h2 {
+  font-style: italic;
+}
+
+#intro, #skills, #projects {
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right: 10%;
+  padding: 5%;
+}
+
+.experience {
+  margin-top: 15%;
+  padding: 8%;
+}
+
+#projects > section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#projects > section img {
+  height: 250px;
+}
+
+#projects .project {
+  margin-top: 10%;
+  padding: 5%;
+  border: 20px solid rgba(45, 45, 125, 0.703);
+}
+
+#leftbar {
+  background-color: aliceblue;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 26%;
+}
+
+#source {
+  margin-top: 15%;
+}
+
+#hack {
+  margin-top: 10%;
+}
+
+#leftbar .contact {
+  font-size: 12pt;
+}
+
+#leftbar img {
+  border-radius: 50%;
+  width: 45%;
+}
+
+#leftbar #education {
+  font-size: 12pt;
+  margin-top: 25%;
+  text-align: center;
+}
+
+#leftbar p span {
+  text-decoration: underline;
+}
+
+body .error {
+  color: rgb(255, 0, 0);
+  font-size: 150px;
+}
